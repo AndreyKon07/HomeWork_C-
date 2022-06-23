@@ -1,16 +1,16 @@
-﻿int a, b;
+﻿int a;
 
-Console.WriteLine("Input first number");
+Console.WriteLine("Input number: ");
 a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Input first number");
-b = Convert.ToInt32(Console.ReadLine());
+if (a % 2 == 0)
+{
+Console.WriteLine("Yes");
+}
 
-if (a > b)
-{
-    Console.WriteLine(a);
-}
 else
+
 {
-    Console.WriteLine(b);
+Console.WriteLine("No");
 }
+
